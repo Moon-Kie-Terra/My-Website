@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body
+{
+  background-color: #006400;
+}
+
+*
+{
+  margin:0;
+  padding:0;
+  font-family: "Poppins";
+  
+  
+}
+
+
+
+h1
+{
+  text-align: center;
+ vertical-align: baseline;
+ color: #fefae0;
+ 
+
+}
+
+
+.navbar ul
+{
+  list-style-type: none;
+  overflow: hidden;
+  display: flex;
+  height: 10vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #d4a373;
+  font-size: 1em;
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+  
+}
+
+.navbar li a
+{
+  font-weight: 900;
+  padding:18px;
+  float: left;
+  text-decoration: none;
+  color: #fefae0;
+  transition: 0.25s;
+}
+
+.navbar li:hover
+{
+  background-color: #E5CCA8;
+}
+
+.main, .strava-div
+{
+  display: flex;
+  height:80vh;
+  width:100%;
+  background-color: #fefae0;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  
+}
+
+
+
+.hero-image
+{
+  height:70vh;
+  width:auto;
+  
+
+}
+
+.quote
+{
+  font-size: 3.5em;
+  width:450px;
+  display: flex;
+  margin-left:10%;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+
+.strava-text
+{
+  width:500px;
+  font-size: 2em;
+  margin-right:10%;
+}
